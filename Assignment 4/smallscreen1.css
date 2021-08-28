@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (orientation: portrait) {
+  .textblock {
+    width: 100%;
+  }
+  .textblock2 {
+    width: 100%
+  }
+  .video {
+    width: 100%
+  }
+  .image {
+    width: 100%
+  }
+  .image2 {
+    width: 100%
+  }
+  .image3 {
+    width: 100%
+  }
+}
+.topnav {
+  grid-area: topnav;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  text-size: 70px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-decoration-color: aqua;
+  text-align: center;
+  text-size: 70px;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+.header {
+  grid-area: header;
+  height: 100px;
+  font-size: 60px;
+  color: 000000;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 15px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+.h2 {
+  /*	grid-area: h2css;*/
+  text-align: center;
+  border-style: groove;
+  background-color: #FFFFFF;
+  font-size: 15px;
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px
+}
+.image {
+  grid-area: mainimagecss;
+  border-collapse: collapse;
+  padding: 5px;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: #FFFFFF;
+  align: center;
+}
+.image2 {
+  grid-area: mainimagecss2;
+  border-collapse: collapse;
+  padding: 5px;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: #FFFFFF;
+  align: center;
+}
+.image3 {
+  grid-area: mainimagecss3;
+  border-collapse: collapse;
+  padding: 5px;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: #FFFFFF;
+  align: center;
+}
+.textblock {
+  grid-area: textblockcss;
+  padding: 10px;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align: center;
+}
+.textblock2 {
+  grid-area: textblockcss2;
+  padding: 10px;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align: center;
+}
+.video {
+  grid-area: video;
+  border-collapse: collapse;
+  padding: 5px;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: #FFFFFF;
+  align: center;
+}
+.grid-container {
+  display: grid;
+  background-color: #57FFBA;
+  grid-template-areas:
+    'header'
+    'topnav'
+    'textblockcss'
+    'video'
+    'mainimagecss'
+    'textblockcss2'
+    'mainimagecss2'
+    'mainimagecss3'
+    'footer';
+}

@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+.topnav {
+  grid-area: topnav;
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.header {
+  grid-area: header;
+  background-color:#FFFFFF;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}
+.h2 {
+  /*	grid-area: h2css;*/
+  text-align: center;
+  border-style:groove;
+  background-color: #FFFFFF;
+  font-size: 25px;
+	padding: 8px;
+ margin-left: auto;
+  margin-right: auto;
+margin-top:10px}
+.image {
+  grid-area: mainimagecss;
+  border-collapse: collapse;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top:10px;
+  background-color:#FFFFFF;
+  box-shadow: 10px 10px 5px grey;
+}
+.textblock {
+  grid-area: textblockcss;
+  padding: 20px;
+  font-size: 22px;
+}
+.table {
+  grid-area: table;
+	width: auto;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.table th, .table td {
+  padding: 12px 15px;
+}
+.table tbody tr {
+  border-bottom: 1px, solid #dddddd;
+}
+.table tbody tr:nth-of-type(even) {
+  background-color:#f3f3f3;
+}
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'topnav topnav'
+    'textblockcss mainimagecss'
+    'table table'
+    'footer footer';
+  grid-gap: 10px;
+  background-color:#E4E4E4;
+  padding: 10px;
+  margin: 10px;
+}

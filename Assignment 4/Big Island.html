@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport” content=”width=device-width,
+ initial-scale=1.0, maximum-scale-1.0"/>
+<link href="../smallscreen1.css" rel="stylesheet" typle="text/css"
+	  media="only screen and (orientation: portrait)" />
+<link href="Assignment 4 css.css" rel="stylesheet" type="text/css" 
+	  media="only screen and (orientation: landscape)"/>
+<title>Home Page</title>
+<script type="text/javascript">
+  writeRandomQuote = function () {
+    var quotes = new Array();
+    quotes[0] = "Kahuna Nui Hale Kealohalani Makua  – “Love all you see, including yourself.” — Hale Makua";
+    quotes[1] = "A’a i ka hula, waiho i ka maka’u i ka hale – (Dare to dance, leave shame at home.)";
+    quotes[2] = "Mohala i ka wai ka maka o ka pua – (Unfolded by the water are the faces of the flowers.)";
+    quotes[3] = "Noho me ka hau’oli – (Be happy.)";
+    var rand = Math.floor(Math.random()*quotes.length);
+    document.write(quotes[rand]);
+  }
+  </script>
+</head>
+<body>
+<div class="grid-container">
+  <div class="header"> 4 Major Hawaiian Islands</div>
+  <div class="topnav"><a href="index.html">Home</a><a href="Oahu.html">Oahu</a><a href="Big Island.html">Big Island</a><a href="Maui.html">Maui</a><a href="kauai.html">Kauai</a></div>
+  <div class="textblock">
+    <div class="h2">The Big Island of Hawaii</div>
+    Hawaii is not only the name of the state, but the name of the state's largest island. It is nicknamed "The Big Island of Hawaii". This island is larger than each of the other islands combined. The island is 95 miles long and 80 miles wide. This island is still growing due to the lava pouring into the ocean around it. The island's volcano has a controlled flow and is harmless. The island's "Volcanoes National Park" is home to "Kilauea", one of the most active volcanoes in the world. <br>
+    This island has a little something for everyone. Family friendly beaches are easily accessible and near the airport in Kona. Driving across the island takes about 2 1/2 hours long, but there are areas stops along the way and small cities to see. <br>
+    <script type="text/javascript">writeRandomQuote();</script> 
+  </div>
+  <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7gEfnDh2d1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="textblock2">
+    <div class="h2">Who is The Big Island Ideal For?</div>
+    <ul>
+      <li>The state parks on this island are ideal for families with teenagers and adults. These parts of the island is best enjoyed by foot. </li>
+      <li>Families who enjoy the beach and wildlife.</li>
+      <li>Those interested in astronomy. The island has multiple observatories. </li>
+      <li>Those interested in geology. The volcanic landscape makes for some very interesting formations and rocks.</li>
+    </ul>
+  </div>
+  <div class="image"><img src="volcano.jfif" width="500" height="auto" alt=""/></div>
+  <div class="image2"><img src="kevin-doran-T9KJkf4mzA8-unsplash.jpg" width="500" height="auto" alt=""/></div>
+  <div class="image3"><img src="lagoon-1008336_640.jpg" width="500" height="auto" alt=""/></div>
+</div>
+</body>
+</html>

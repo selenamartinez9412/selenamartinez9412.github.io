@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+.topnav {
+  grid-area: topnav;
+  overflow: hidden;
+  background-color: #FFBEBF;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-size: 50px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.header {
+  grid-area: header;
+  height: 100px;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 30px;
+  text-align: center;
+  border-style: groove;
+  background-color: #00CCEA;
+}
+.h2 {
+  text-align: center;
+  border-style: groove;
+  text-size: 40px;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #00CCEA;
+  margin-top: 10px
+}
+.image {
+  grid-area: mainimagecss;
+  border-collapse: collapse;
+  padding: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px;
+}
+.image2 {
+  grid-area: mainimagecss2;
+  border-collapse: collapse;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.image3 {
+  grid-area: mainimagecss3;
+  border-collapse: collapse;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.textblock {
+  grid-area: textblockcss;
+  padding: 15px;
+  text-size: 30px;
+  border-collapse: collapse;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  background-color: #FFFFFF;
+  box-shadow: 10px 10px 5px grey;
+}
+.textblock2 {
+  grid-area: textblockcss2;
+  padding: 15px;
+  text-size: 30px;
+  border-collapse: collapse;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  background-color: #FFFFFF;
+  box-shadow: 10px 10px 5px grey;
+}
+.video {
+  grid-area: video;
+  border-collapse: collapse;
+  padding: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.table {
+  grid-area: table;
+  width: auto;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.7em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table th, .table td {
+  border: 1px solid black;
+  padding: 12px 15px;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'topnav topnav'
+    'textblockcss mainimagecss'
+    'textblockcss2 textblockcss2'
+    'footer footer';
+  grid-gap: 10px;
+  background-color: #E5E5E5;
+  padding: 10px;
+  margin: 10px;
+}

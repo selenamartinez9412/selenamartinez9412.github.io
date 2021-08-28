@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+.header {
+  grid-area: header;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  font-size: 40;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.h2 {
+  text-align: center;
+  border-style: dotted;
+  background-color: #FFFFFF;
+}
+.topnav {
+  grid-area: topnav;
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.textblock {
+  grid-area: textblockcss;
+  padding: 20px;
+  font-size: 18px;
+}
+.image {
+  grid-area: mainimagecss;
+  border-collapse: collapse;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgrey;
+  box-shadow: 10px 10px 5px grey;
+  font-size: 18px;
+}
+.secondimage {
+  grid-area: secondimagecss;
+  border-collapse: collapse;
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	 background-color: lightgrey;
+  box-shadow: 10px 10px 5px grey;
+	font-size: 18px;
+}
+.thirdimage {
+  grid-area: thirdimagecss;
+  border-collapse: collapse;
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	 background-color: lightgrey;
+  box-shadow: 10px 10px 5px grey;
+	font-size: 18px;
+}
+.fourthimage {
+  grid-area: fourthimagecss;
+  border-collapse: collapse;
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	 background-color: lightgrey;
+  box-shadow: 10px 10px 5px grey;
+	font-size: 18px;
+}
+.secondtextblock {
+  grid-area: secondtextblockcss;
+  padding: 20px;
+	font-size: 18px;
+}
+.footer {
+  grid-area: footer;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'topnav topnav'
+    'mainimagecss textblockcss'
+    'secondtextblockcss secondimagecss'
+	'thirdimagecss fourthimagecss'
+    'footer footer';
+  grid-gap: 4px;
+  background-color: #C9EBFF;
+  padding: 1px;
+}

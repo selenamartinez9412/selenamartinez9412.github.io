@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+.topnav {
+  grid-area: topnav;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-decoration-color: aqua;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.header {
+  grid-area: header;
+  height: 100px;
+  font-size: 60px;
+  color: 000000;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 30px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+.h2 {
+  /*	grid-area: h2css;*/
+  text-align: center;
+  border-style: groove;
+  background-color: #FFFFFF;
+  font-size: 25px;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px
+}
+.image {
+  grid-area: mainimagecss;
+  border-collapse: collapse;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 10px 10px 5px grey;
+}
+.image2 {
+  grid-area: mainimagecss2;
+  border-collapse: collapse;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 10px 10px 5px grey;
+}
+.image3 {
+  grid-area: mainimagecss3;
+  border-collapse: collapse;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 10px 10px 5px grey;
+}
+.textblock {
+  grid-area: textblockcss;
+  padding: 20px;
+  font-size: 22px;
+}
+.textblock2 {
+  grid-area: textblockcss2;
+  padding: 20px;
+  font-size: 22px;
+}
+.video {
+  grid-area: video;
+	 border-collapse: collapse;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 10px 10px 5px grey;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'topnav topnav'
+    'textblockcss video'
+    'mainimagecss textblockcss2'
+    'mainimagecss2 mainimagecss3'
+    'footer footer';
+  grid-gap: 10px;
+  background-color: #E7E7E7;
+  padding: 10px;
+  margin: 10px;
+}

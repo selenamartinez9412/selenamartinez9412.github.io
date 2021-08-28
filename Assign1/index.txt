@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home Page</title>
+<link href="assign1.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="grid-container">
+	<link href="assign1.css" rel="stylesheet" type="text/css"/>
+
+  <div class="header">
+    <div class="header-background">Dog Breeds</div>
+	  </div>
+  <div class="topnav"><a href="index.html">Home</a><a href="Easy to Train.html">Easy to Train</a><a href="Family Friendly.html">Family Friendly</a><a href="High Energy.html">High Energy</a><a href="Low Energy.html">Low Energy</a></div>
+	<div class="textblock">
+    <div class="h2">Choosing a Dog</div>
+    <br>Deciding to own a dog is a big decision, and sifting through multiple dog breeds can seem overwhelming. This site was created to help potential dog owners decide which dog breeds are ideal for their lifestyle. Before choosing a dog, be sure to take the following steps to evaluate your lifestyle:
+    <ol>
+      <li>Consider the size of your home. Is there space for a large or active dog?</li>
+      <li>Think about your schedule. Are you home most of the day? Away at work? Is your schedule inconsistent?</li>
+      <li>Consider the people in your home Are there young children? Is it a single household? An active household</li>
+      <li>Ask yourself why you want a dog. Is it to have an activity partner? To get yourself outdoors more often? To have someone to keep you company at home? A friend for your children?</li>
+      <li>Use the information you have gathered and the information in the following webpages to guide yourself towards which dog breeds fit your lifestyle best.</li>
+      <li>After evaluating your priorities, consider checking with your local shelter and express what exactly you are looking for in a furry friend.</li>
+    </ol>
+  </div>
+  <div class="image"> <img src="../images/pexels-photo-3628100.jpeg" width="500" height="333" alt="group of dogs"/></div>
+  <div class="footer"><a href="mailto:Selena.Martinez2@my.unt.edu">Send Email</a></div>
+</div>
+</body>
+</html>
